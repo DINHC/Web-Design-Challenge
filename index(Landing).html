@@ -30,16 +30,63 @@
 						<ul class="nav navbar-nav navbar-right">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
 								<li class="dropdown"></li>
-								<li><a href="comparisons.html">Comparisons</a></li>
-							  <li><a href="data.html">Data</a></li>
+							<li><a href="comparisons.html">Comparisons</a></li>
+							<li><a href="data.html">Data</a></li>
 								<ul class="dropdown-menu">
 								  <li><a href="lattemp.html">Temperature</a></li>
 								  <li><a href="lathum.html">Humidity</a></li>
 								  <li><a href="latcloud.html">Cloudiness</a></li>
 								  <li role="separator" class="divider"></li>
 								  <li><a href="latwind.html">Wind Speed</a></li>
-					  </li>
-					</ul>
+					  		</li>
+						</ul>
 				  </div>
 				</div>
-			  </nav>
+		</nav>
+		
+		<div class="container">
+			<div class="row">
+			 <div class="col-md-1"></div>  
+			   <div class="col-md-6">
+			  <h1>Summary</h1>
+				<img src="C:\Users\dinhc\OneDrive\Documents\Web-Design-Challenge\Resources\LatvsTemp.png" width="400" height="350">
+				<p> Using an Open Weather API along with Google APIs, the project shown here was made with the purpose of analyzing weather data from randomly generated cities around the world </p>
+				<p> Once we gathered the neccessary data and turning it into a csv, Pandas and Matplotlib Python were used to analyze the data set pertaining to Max Temperature, Humidity, Cloudiness, and Wind Speed. This dashboard shows the source data and the visualizations based on the four dependent variables.</p> 
+			 </div>    
+			   <div class="col-md-4 sidebar">
+				<div class="row">
+				  <div class="col-md-12">
+					<h1>Visualizations</h1>
+				  </div>
+				</div>
+			   <div class="row">
+		
+				  <div class="col-md-3">    
+					   <a href="lattemp.html">Max Temperature<img src="C:\Users\dinhc\OneDrive\Documents\Web-Design-Challenge\Resources\LatvsTemp.png" width="200px" height="150px"></a>
+				  </div>
+				  <div class="col-md-3"></div>
+				
+				  <div class="col-md-3">  
+					   <a href="lathum.html">Humidity<img src="C:\Users\dinhc\OneDrive\Documents\Web-Design-Challenge\Resources\LatvsHum.png" width="200px" height="150px"></a>
+				  </div>
+				  <div class="col-md-3"></div>  
+			   </div>   
+			   <div class ="row"> 
+				  
+				  <div class="col-md-3">  
+					<a href="latcloud.html">Cloudiness<img src="C:\Users\dinhc\OneDrive\Documents\Web-Design-Challenge\Resources\LatvsCloud.png" width="200px" height="150px"></a>
+				  </div>
+				  <div class="col-md-3"></div>
+		
+				  <div class="col-md-3">     
+					<a href="latwind.html">Wind Speed<img src="C:\Users\dinhc\OneDrive\Documents\Web-Design-Challenge\Resources\LatvsWind.png" width="200px" height="150px"></a>
+				  </div>
+				  <div class="col-md-3"></div>
+				</div>    
+			 </div>         
+			<div class="col-md-1"></div>
+		  </div>      
+		</div>			  
+</body>
+
+</html>
