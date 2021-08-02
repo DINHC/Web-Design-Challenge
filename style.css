@@ -1,6 +1,5 @@
 body {
-    background: rgb(116,196,223)
-   
+    background: rgb(245, 242, 205)
   }
   
   .navbar {
@@ -26,6 +25,7 @@ body {
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
     background-color: rgb(52, 150, 165, 0.75);
+
   }
   
   .nav-link:hover {
@@ -55,7 +55,7 @@ body {
   }
   
   .title {
-    color: rgb(52, 149, 165);
+    color: rgb(117, 71, 202);
     font-family: cochin;
     font-weight: bolder;
     padding-top: 10px;
@@ -86,7 +86,7 @@ body {
   border-top-style: solid;
   border-top-width: 5px;
   border-top-color: rgb(37, 80, 87);
-  color: rgb(171, 222, 226);
+  color: rgb(238, 252, 253);
   min-height: 50px;
   font-family:  Georgia, 'Times New Roman', Times, serif;
   font-size: 10px;
