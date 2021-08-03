@@ -21,9 +21,19 @@ body {
     background-color: rgb(138, 117, 117);
   }
   .dropdown-item {
+    /* color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; */
     color: rgb(52, 150, 165, 0.75);
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    /* display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; */
     background-color: rgb(52, 150, 165, 0.75);
 
   }
@@ -37,7 +47,7 @@ body {
   }
   a {
     color: rgb(231, 231, 231);
-    font-size: 15px;
+    font-size: 20px;
   }
   
   img{
