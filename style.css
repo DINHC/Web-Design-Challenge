@@ -11,11 +11,11 @@ body {
     padding: inherit;
     font-weight: bold;
     background-color: rgb(255, 255, 255);
-    font-family: cochin;
+    font-family: 'Times New Roman', Times, serif;
   }
   .navbar {
     background-color: rgb(255, 255, 255);
-    font-size: 40px; 
+    font-size: 60px; 
   }
   .active, .dropdown-menu .dropdown-item:active a:hover {
     background-color: rgb(138, 117, 117);
@@ -56,29 +56,29 @@ body {
   
   .title {
     color: rgb(117, 71, 202);
-    font-family: cochin;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    padding-top: 10px;
+    padding-top: 15px;
   }
   
   p {
   color: rgb(52, 149, 165);
-  font-family: 'segoe ui';
-  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
   }
   
   .box {
     margin-top: 50px;
     margin-bottom: 60px;
     padding: 10px 30px 10px;
-    color: #ffffff;
-    background-color: rgb(255, 255, 255);
+    color: #c8f5af;
+    background-color: rgb(26, 63, 1);
   
   }
   
   .table {
-    font-size: 15px;
-    border-top-color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-top-color: rgb(248, 125, 125);
   }
   
   footer {
@@ -108,13 +108,13 @@ body {
     }
     .navbar div {
       margin: inherit;
-      background-color: rgb(255,255,255);
+      background-color: rgb(255, 140, 140);
     }
     .navbar-brand {
-      padding: 10px;
+      padding: 15px;
     }
     button{
-      margin-right: 30px;
+      margin-right: 40px;
     }
     button:focus {
       outline: 1px dotted;
